@@ -1,0 +1,28 @@
+# Model weights & checkpoints (too large / regenerate via training notebook)
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# Datasets
+faces_data/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.env
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
